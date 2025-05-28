@@ -1,0 +1,29 @@
+# Exported from Render on 2025-02-04T08:46:58Z
+services:
+- type: web
+  name: my_api
+  runtime: docker
+  repo: https://github.com/Langtok/my_api
+  branch: dev
+  plan: free
+  envVars:
+  - key: DATABASE_URL
+    sync: false
+  - key: SECRET_KEY_BASE
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
+# Exported from Render on 2025-02-04T08:48:35Z
+databases:
+- name: pgsl-my-api
+  databaseName: pgsl_my_api
+  user: pgsl_my_api_user
+  plan: free
+  region: oregon
+  ipAllowList:
+  - source: 0.0.0.0/0
+    description: everywhere
+  postgresMajorVersion: "16"
+version: "1"
