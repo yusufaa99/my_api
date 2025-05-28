@@ -9,7 +9,7 @@ gem 'devise', '~> 4.9', '>= 4.9.4'
 
 gem 'doorkeeper', '~> 5.7', '>= 5.7.1'
 
-gem 'redis', '~> 5.3'
+gem 'redis', '~> 5.4'
 
 gem 'graphql', '~> 2.3', '>= 2.3.16'
 
