@@ -79,7 +79,7 @@ rails c
     ```JSON
     {
     "grant_type": "password",
-    "email": "mattemmsmartprince@gmail.com",
+    "email": "yusufyahaya065@gmail.com",
     "password": "letmein123",
     "client_id": "710d8986884a6459794ccb29f9f97c60",
     "client_secret": "a64825a4e2c80f2435d1ce7724c7ecd377dd6d15219147ab060f8a57b3d807c7"
