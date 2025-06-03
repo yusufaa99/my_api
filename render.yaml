@@ -3,7 +3,7 @@ services:
 - type: web
   name: my_api
   runtime: docker
-  repo: https://github.com/Langtok/my_api
+  repo: https://github.com/yusufaa99/my_api.git
   branch: dev
   plan: free
   envVars:
