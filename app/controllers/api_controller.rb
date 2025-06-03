@@ -10,6 +10,7 @@ class ApiController < ApplicationController
   
     private
   
+    
     # helper method to access the current user from the token
     def current_user
       return unless doorkeeper_token
